@@ -1,0 +1,1223 @@
+body
+{
+	max-width:100%;
+	max-height:100%;
+	background-image:url('pic2.png');
+	background-size:cover;
+	
+}
+a
+{
+	text-decoration:none;
+	color:white;
+}
+
+	#circle1
+	{
+     width: 80px;
+	 height: 80px;
+	 background: #FF7A5A;
+	-moz-border-radius: 40px;
+	-webkit-border-radius: 40px;
+	 border-radius: 40px;
+	 position:absolute;
+	 top:20px;
+	 left:40px;       
+    }
+	#circle2
+	{
+     width: 80px;
+	 height: 80px;
+	 background: #F78D3F;
+	-moz-border-radius: 40px;
+	-webkit-border-radius: 40px;
+	 border-radius: 40px;
+	 position:absolute;
+	 top:20px;
+	 left:100px;       
+    }
+	#circle3
+	{
+     width: 80px;
+	 height: 80px;
+	 background: #2BBBD8;
+	-moz-border-radius: 40px;
+	-webkit-border-radius:40px;
+	 border-radius: 40px;
+	 position:absolute;
+	 top:20px;
+	 left:160px;       
+    }
+	#circle4
+	{
+     width: 80px;
+	 height: 80px;
+	 background: #102E37;
+	-moz-border-radius: 40px;
+	-webkit-border-radius:40px;
+	 border-radius:40px;
+	 position:absolute;
+	 top:20px;
+	 left:220px;       
+    }
+	#title
+	{
+    	font-family: 'Bitter', serif;
+	    font-size:40px;
+	    font-weight:bold;
+	    color:white;
+	    position:absolute;
+	    top:35px;
+	    left:45px;
+	}
+	#subtitle
+      { 
+	 font-family: 'Niconne', cursive;
+	 font-size:25px;
+	 position:absolute;
+	 top:100px;
+	 left:30px;
+   }
+   
+   #heading
+     {
+    font-family:'Bitter',serif;
+    font-weight:bold;
+    font-size:25px;
+    position:absolute;
+    top:120px;
+    left:850px;	
+   }
+   
+   #menu
+     {
+	   position:fixed;
+	   width:200px;
+	   top:200px;
+       left:-50px;
+       text-decoration:none;
+   }
+   
+   #menu ul 
+     {
+	   list-style:none;
+       text-decoration:none;
+   }
+   
+   #menu ul li
+   {
+	   margin-top:15px;
+       font-family: 'Bitter', serif;
+       font-size:25px;
+       width:160px;
+	   padding-top:10px;
+       padding-bottom:10px;
+	   border-radius:0px 20px 20px 0px;
+       padding-left:20px;
+       box-shadow:5px 0px 10px #939393;
+       text-decoration:none;
+   }
+   #home
+     {
+      background-color:#FF7A5A;
+      color:white;
+      text-decoration:none;
+  }
+   #quiz
+    {
+      background-color:#F78D3F;
+      color:white;
+      text-decoration:none;
+  }
+   #signup
+    {
+      background-color:#2BBBD8;
+      color:white;
+      text-decoration:none;
+   }
+   #aboutus
+    {
+     background-color:#102E37;
+     color:white;
+     text-decoration:none;
+  }
+   
+   #news
+   {
+	   position:absolute;
+       background-image:url('pic2.png');
+	background-size:cover;
+	   width:86%;
+	   height:100%;
+	   top:230px;
+	   -moz-border-radius: 40px;
+	   -webkit-border-radius:40px;
+	   border-radius: 40px; 
+	   left:180px;
+	   opacity:1;
+   }
+   
+   
+   #red
+   {
+	   position:absolute;
+	   width:1250px;
+	   height:2px;
+	   top:80px;
+	   left:-800px;
+	   background-color:#FF7A5A;
+   }
+   #trending
+   {
+	   position:absolute;
+	   width:500px;
+	   height:300px;
+	   background-color:#FF7A5A;
+	   left:50px;
+	   top:10px;
+	   border-radius:40px;
+	   -moz-border-radius: 40px;
+	   -webkit-border-radius:40px;  
+	   font-family: 'Bitter', serif;
+       font-size:12px;
+	   color:white;
+	   text-align:center;
+   }
+   #politicsnow
+   {
+	   position:absolute;
+	   width:500px;
+	   height:300px;
+	   background-color:#F78D3F;
+	   left:600px;
+	   top:10px;
+	   border-radius:40px;
+	   -moz-border-radius: 40px;
+	   -webkit-border-radius:40px;
+       font-family: 'Bitter', serif;
+       font-size:12px;
+       color:white;
+       text-align:center;	   
+   }
+   #sportsandenter
+   {
+	   position:absolute;
+	   width:500px;
+	   height:300px;
+	   background-color:#2BBBD8;
+	   left:50px;
+	   top:325px;
+	   border-radius:40px;
+	   -moz-border-radius: 40px;
+	   -webkit-border-radius:40px;
+       font-family: 'Bitter', serif;
+       font-size:12px;
+       color:white;
+       text-align:center;	   
+   }
+   #international
+   {
+	   position:absolute;
+	   width:500px;
+	   height:300px;
+	   background-color:#102E37;
+	   left:600px;
+	   top:325px;
+	   border-radius:40px;
+	   -moz-border-radius: 40px;
+	   -webkit-border-radius:40px;
+       font-family: 'Bitter', serif;
+       font-size:12px;
+       color:white;
+       text-align:center;	   
+   }
+   
+  
+   
+   @media only screen and (max-width: 360px)
+ {
+	 #circle1
+	{
+     width: 60px;
+	 height: 60px;
+	 background: #FF7A5A;
+	-moz-border-radius: 30px;
+	-webkit-border-radius: 30px;
+	 border-radius: 30px;
+	 position:absolute;
+	 top:25px;
+	 left:40px;       
+    }
+	#circle2
+	{
+     width: 60px;
+	 height: 60px;
+	 background: #F78D3F;
+	-moz-border-radius: 30px;
+	-webkit-border-radius: 30px;
+	 border-radius: 30px;
+	 position:absolute;
+	 top:25px;
+	 left:80px;       
+    }
+	#circle3
+	{
+     width: 60px;
+	 height: 60px;
+	 background: #2BBBD8;
+	-moz-border-radius: 30px;
+	-webkit-border-radius: 30px;
+	 border-radius: 30px;
+	 position:absolute;
+	 top:25px;
+	 left:120px;       
+    }
+	#circle4
+	{
+     width: 60px;
+	 height: 60px;
+	 background: #102E37;
+	-moz-border-radius: 30px;
+	-webkit-border-radius: 30px;
+	 border-radius: 30px;
+	 position:absolute;
+	 top:25px;
+	 left:160px;       
+    }
+	#title
+	{
+    	font-family: 'Bitter', serif;
+	    font-size:25px;
+	    font-weight:bold;
+	    color:white;
+	    position:absolute;
+	    top:38px;
+	    left:50px;
+	}
+	#subtitle
+      { 
+	 font-family: 'Niconne', cursive;
+	 font-size:15px;
+	 position:absolute;
+	 top:90px;
+	 left:45px;
+   }
+   
+   #heading
+     {
+    font-family:'Bitter',serif;
+    font-weight:bold;
+    font-size:12px;
+    position:absolute;
+    top:120px;
+    left:70px;	
+   }
+   
+   #red
+   {
+	   position:absolute;
+	   width:230px;
+	   height:2px;
+	   top:50px;
+	  
+	   left:-40px;
+	   background-color:#FF7A5A;
+   }
+   #news
+   {
+	   position:absolute;
+       background-color:white;
+	   width:100%;
+	   height:100%;
+	   top:200px;
+	   -moz-border-radius: 40px;
+	   -webkit-border-radius:40px;
+	   border-radius: 40px; 
+	   left:0px;
+	   opacity:1;
+   }
+   #trending
+   {
+	   position:absolute;
+	   width:98%;
+	   height:250px;
+	   background-color:#FF7A5A;
+	   left:5px;
+	   top:10px;
+	   border-radius:20px;
+	   -moz-border-radius: 20px;
+	   -webkit-border-radius:20px;  
+	   font-family: 'Bitter', serif;
+       font-size:8px;
+	   color:white;
+	   text-align:center;
+   }
+   #politicsnow
+   {
+	   position:absolute;
+	   width:98%;
+	   height:250px;
+	   background-color:#F78D3F;
+	   left:5px;
+	   top:270px;
+	   border-radius:20px;
+	   -moz-border-radius:20px;
+	   -webkit-border-radius:20px;
+       font-family: 'Bitter', serif;
+       font-size:8px;
+       color:white;
+       text-align:center;	   
+   }
+   #sportsandenter
+   {
+	   position:absolute;
+	   width:98%;
+	   height:250px;
+	   background-color:#2BBBD8;
+	   left:5px;
+	   top:530px;
+	   border-radius:20px;
+	   -moz-border-radius:20px;
+	   -webkit-border-radius:20px;
+       font-family: 'Bitter', serif;
+       font-size:8px;
+       color:white;
+       text-align:center;	   
+   }
+   #international
+   {
+	   position:absolute;
+	   width:98%;
+	   height:250px;
+	   background-color:#102E37;
+	   left:5px;
+	   top:790px;
+	   border-radius:20px;
+	   -moz-border-radius:20px;
+	   -webkit-border-radius:20px;
+       font-family: 'Bitter', serif;
+       font-size:8px;
+       color:white;
+       text-align:center;	   
+   }
+   #menu 
+      {
+	   display:none;
+   }
+   
+   #burger
+   {
+	   position:fixed;
+	   width:30px;
+	   height:30px;
+	   background-image:url('slide.png');
+	   background-size:cover; 
+	   background-color:white;
+	   top:180px;
+	   left:0px;
+	   border-radius:10px;
+	   -moz-border-radius:10px;
+	   -webkit-border-radius:10px;
+	    
+  }
+   
+   
+   
+ }	
+ 
+ @media only screen and (max-width:480px) and (min-width: 361px)
+ {
+	 
+ #circle1
+	{
+     width: 60px;
+	 height: 60px;
+	 background: #FF7A5A;
+	-moz-border-radius: 30px;
+	-webkit-border-radius: 30px;
+	 border-radius: 30px;
+	 position:absolute;
+	 top:25px;
+	 left:120px;       
+    }
+	#circle2
+	{
+     width: 60px;
+	 height: 60px;
+	 background: #F78D3F;
+	-moz-border-radius: 30px;
+	-webkit-border-radius: 30px;
+	 border-radius: 30px;
+	 position:absolute;
+	 top:25px;
+	 left:160px;       
+    }
+	#circle3
+	{
+     width: 60px;
+	 height: 60px;
+	 background: #2BBBD8;
+	-moz-border-radius: 30px;
+	-webkit-border-radius: 30px;
+	 border-radius: 30px;
+	 position:absolute;
+	 top:25px;
+	 left:200px;       
+    }
+	#circle4
+	{
+     width: 60px;
+	 height: 60px;
+	 background: #102E37;
+	-moz-border-radius: 30px;
+	-webkit-border-radius: 30px;
+	 border-radius: 30px;
+	 position:absolute;
+	 top:25px;
+	 left:240px;       
+    }
+	#title
+	{
+    	font-family: 'Bitter', serif;
+	    font-size:25px;
+	    font-weight:bold;
+	    color:white;
+	    position:absolute;
+	    top:38px;
+	    left:130px;
+	}
+	#subtitle
+      { 
+	 font-family: 'Niconne', cursive;
+	 font-size:15px;
+	 position:absolute;
+	 top:90px;
+	 left:125px;
+   }
+   
+   #heading
+     {
+    font-family:'Bitter',serif;
+    font-weight:bold;
+    font-size:12px;
+    position:absolute;
+    top:120px;
+    left:150px;	
+   }
+   
+   #red
+   {
+	   position:absolute;
+	   width:230px;
+	   height:2px;
+	   top:50px;
+	   left:-40px;
+	   background-color:#FF7A5A;
+   }
+   #news
+   {
+	   position:absolute;
+       background-color:white;
+	   width:100%;
+	   height:100%;
+	   top:200px;
+	   -moz-border-radius: 40px;
+	   -webkit-border-radius:40px;
+	   border-radius: 40px; 
+	   left:0px;
+	   opacity:1;
+   }
+   #trending
+   {
+	   position:absolute;
+	   width:98%;
+	   height:250px;
+	   background-color:#FF7A5A;
+	   left:5px;
+	   top:10px;
+	   border-radius:20px;
+	   -moz-border-radius: 20px;
+	   -webkit-border-radius:20px;  
+	   font-family: 'Bitter', serif;
+       font-size:8px;
+	   color:white;
+	   text-align:center;
+   }
+   #politicsnow
+   {
+	   position:absolute;
+	   width:98%;
+	   height:250px;
+	   background-color:#F78D3F;
+	   left:5px;
+	   top:270px;
+	   border-radius:20px;
+	   -moz-border-radius:20px;
+	   -webkit-border-radius:20px;
+       font-family: 'Bitter', serif;
+       font-size:8px;
+       color:white;
+       text-align:center;	   
+   }
+   #sportsandenter
+   {
+	   position:absolute;
+	   width:98%;
+	   height:250px;
+	   background-color:#2BBBD8;
+	   left:5px;
+	   top:530px;
+	   border-radius:20px;
+	   -moz-border-radius:20px;
+	   -webkit-border-radius:20px;
+       font-family: 'Bitter', serif;
+       font-size:8px;
+       color:white;
+       text-align:center;	   
+   }
+   #international
+   {
+	   position:absolute;
+	   width:98%;
+	   height:250px;
+	   background-color:#102E37;
+	   left:5px;
+	   top:790px;
+	   border-radius:20px;
+	   -moz-border-radius:20px;
+	   -webkit-border-radius:20px;
+       font-family: 'Bitter', serif;
+       font-size:8px;
+       color:white;
+       text-align:center;	   
+   }
+   #menu 
+      {
+	   display:none;
+   }
+   
+   #burger
+   {
+	   position:fixed;
+	   width:30px;
+	   height:30px;
+	   background-image:url('slide.png');
+	   background-size:cover; 
+	   background-color:white;
+	   top:180px;
+	   left:0px;
+	   border-radius:10px;
+	   -moz-border-radius:10px;
+	   -webkit-border-radius:10px;
+	    
+  }
+   
+   
+   
+ }
+ 
+ 
+ 
+  @media only screen and (max-width:600px) and (min-width: 481px)
+ {
+
+	 
+	 #circle1
+	{
+     width: 60px;
+	 height: 60px;
+	 background: #FF7A5A;
+	-moz-border-radius: 30px;
+	-webkit-border-radius: 30px;
+	 border-radius: 30px;
+	 position:absolute;
+	 top:25px;
+	 left:170px;       
+    }
+	#circle2
+	{
+     width: 60px;
+	 height: 60px;
+	 background: #F78D3F;
+	-moz-border-radius: 30px;
+	-webkit-border-radius: 30px;
+	 border-radius: 30px;
+	 position:absolute;
+	 top:25px;
+	 left:210px;       
+    }
+	#circle3
+	{
+     width: 60px;
+	 height: 60px;
+	 background: #2BBBD8;
+	-moz-border-radius: 30px;
+	-webkit-border-radius: 30px;
+	 border-radius: 30px;
+	 position:absolute;
+	 top:25px;
+	 left:250px;       
+    }
+	#circle4
+	{
+     width: 60px;
+	 height: 60px;
+	 background: #102E37;
+	-moz-border-radius: 30px;
+	-webkit-border-radius: 30px;
+	 border-radius: 30px;
+	 position:absolute;
+	 top:25px;
+	 left:290px;       
+    }
+	#title
+	{
+    	font-family: 'Bitter', serif;
+	    font-size:25px;
+	    font-weight:bold;
+	    color:white;
+	    position:absolute;
+	    top:38px;
+	    left:180px;
+	}
+	#subtitle
+      { 
+	 font-family: 'Niconne', cursive;
+	 font-size:15px;
+	 position:absolute;
+	 top:90px;
+	 left:175px;
+   }
+   
+   #heading
+     {
+    font-family:'Bitter',serif;
+    font-weight:bold;
+    font-size:12px;
+    position:absolute;
+    top:120px;
+    left:200px;	
+   }
+   
+   #red
+   {
+	   position:absolute;
+	   width:230px;
+	   height:2px;
+	   top:50px;
+	   left:-40px;
+	   background-color:#FF7A5A;
+   }
+   #news
+   {
+	   position:absolute;
+       background-color:white;
+	   width:100%;
+	   height:100%;
+	   top:200px;
+	   -moz-border-radius: 40px;
+	   -webkit-border-radius:40px;
+	   border-radius: 40px; 
+	   left:0px;
+	   opacity:1;
+   }
+   #trending
+   {
+	   position:absolute;
+	   width:98%;
+	   height:250px;
+	   background-color:#FF7A5A;
+	   left:5px;
+	   top:10px;
+	   border-radius:20px;
+	   -moz-border-radius: 20px;
+	   -webkit-border-radius:20px;  
+	   font-family: 'Bitter', serif;
+       font-size:8px;
+	   color:white;
+	   text-align:center;
+   }
+   #politicsnow
+   {
+	   position:absolute;
+	   width:98%;
+	   height:250px;
+	   background-color:#F78D3F;
+	   left:5px;
+	   top:270px;
+	   border-radius:20px;
+	   -moz-border-radius:20px;
+	   -webkit-border-radius:20px;
+       font-family: 'Bitter', serif;
+       font-size:8px;
+       color:white;
+       text-align:center;	   
+   }
+   #sportsandenter
+   {
+	   position:absolute;
+	   width:98%;
+	   height:250px;
+	   background-color:#2BBBD8;
+	   left:5px;
+	   top:530px;
+	   border-radius:20px;
+	   -moz-border-radius:20px;
+	   -webkit-border-radius:20px;
+       font-family: 'Bitter', serif;
+       font-size:8px;
+       color:white;
+       text-align:center;	   
+   }
+   #international
+   {
+	   position:absolute;
+	   width:98%;
+	   height:250px;
+	   background-color:#102E37;
+	   left:5px;
+	   top:790px;
+	   border-radius:20px;
+	   -moz-border-radius:20px;
+	   -webkit-border-radius:20px;
+       font-family: 'Bitter', serif;
+       font-size:8px;
+       color:white;
+       text-align:center;	   
+   }
+   #menu 
+      {
+	   display:none;
+   }
+   
+   #burger
+   {
+	   position:fixed;
+	   width:30px;
+	   height:30px;
+	   background-image:url('slide.png');
+	   background-size:cover; 
+	   background-color:white;
+	   top:180px;
+	   left:0px;
+	   border-radius:10px;
+	   -moz-border-radius:10px;
+	   -webkit-border-radius:10px;
+	    
+  }
+   
+   
+   
+ }	
+	 
+	 @media only screen and (max-width:800px) and (min-width: 601px)
+ {
+ #circle1
+	{
+     width: 80px;
+	 height: 80px;
+	 background: #FF7A5A;
+	-moz-border-radius: 40px;
+	-webkit-border-radius: 40px;
+	 border-radius: 40px;
+	 position:absolute;
+	 top:20px;
+	 left:180px;       
+    }
+	#circle2
+	{
+     width: 80px;
+	 height: 80px;
+	 background: #F78D3F;
+	-moz-border-radius: 40px;
+	-webkit-border-radius: 40px;
+	 border-radius: 40px;
+	 position:absolute;
+	 top:20px;
+	 left:240px;       
+    }
+	#circle3
+	{
+     width: 80px;
+	 height: 80px;
+	 background: #2BBBD8;
+	-moz-border-radius: 40px;
+	-webkit-border-radius:40px;
+	 border-radius: 40px;
+	 position:absolute;
+	 top:20px;
+	 left:300px;       
+    }
+	#circle4
+	{
+     width: 80px;
+	 height: 80px;
+	 background: #102E37;
+	-moz-border-radius: 40px;
+	-webkit-border-radius:40px;
+	 border-radius:40px;
+	 position:absolute;
+	 top:20px;
+	 left:360px;       
+    }
+	#title
+	{
+    	font-family: 'Bitter', serif;
+	    font-size:40px;
+	    font-weight:bold;
+	    color:white;
+	    position:absolute;
+	    top:35px;
+	    left:185px;
+	}
+	#subtitle
+      { 
+	 font-family: 'Niconne', cursive;
+	 font-size:25px;
+	 position:absolute;
+	 top:100px;
+	 left:170px;
+   }
+   
+   #heading
+     {
+    font-family:'Bitter',serif;
+    font-weight:bold;
+    font-size:20px;
+    position:absolute;
+    top:120px;
+    left:200px;	
+   }
+   #red
+   {
+	   position:absolute;
+	   width:400px;
+	   height:2px;
+	   top:60px;
+	   left:-80px;
+	   background-color:#FF7A5A;
+   }
+   #news
+   {
+	   position:absolute;
+       background-color:white;
+	   width:100%;
+	   height:100%;
+	   top:200px;
+	   -moz-border-radius: 40px;
+	   -webkit-border-radius:40px;
+	   border-radius: 40px; 
+	   left:0px;
+	   opacity:1;
+   }
+   #trending
+   {
+	   position:absolute;
+	   width:98%;
+	   height:250px;
+	   background-color:#FF7A5A;
+	   left:5px;
+	   top:10px;
+	   border-radius:20px;
+	   -moz-border-radius: 20px;
+	   -webkit-border-radius:20px;  
+	   font-family: 'Bitter', serif;
+       font-size:8px;
+	   color:white;
+	   text-align:center;
+   }
+   #politicsnow
+   {
+	   position:absolute;
+	   width:98%;
+	   height:250px;
+	   background-color:#F78D3F;
+	   left:5px;
+	   top:270px;
+	   border-radius:20px;
+	   -moz-border-radius:20px;
+	   -webkit-border-radius:20px;
+       font-family: 'Bitter', serif;
+       font-size:8px;
+       color:white;
+       text-align:center;	   
+   }
+   #sportsandenter
+   {
+	   position:absolute;
+	   width:98%;
+	   height:250px;
+	   background-color:#2BBBD8;
+	   left:5px;
+	   top:530px;
+	   border-radius:20px;
+	   -moz-border-radius:20px;
+	   -webkit-border-radius:20px;
+       font-family: 'Bitter', serif;
+       font-size:8px;
+       color:white;
+       text-align:center;	   
+   }
+   #international
+   {
+	   position:absolute;
+	   width:98%;
+	   height:250px;
+	   background-color:#102E37;
+	   left:5px;
+	   top:790px;
+	   border-radius:20px;
+	   -moz-border-radius:20px;
+	   -webkit-border-radius:20px;
+       font-family: 'Bitter', serif;
+       font-size:8px;
+       color:white;
+       text-align:center;	   
+   }
+   #menu 
+      {
+	   display:none;
+   }
+   
+   #burger
+   {
+	   position:fixed;
+	   width:30px;
+	   height:30px;
+	   background-image:url('slide.png');
+	   background-size:cover; 
+	   background-color:white;
+	   top:180px;
+	   left:0px;
+	   border-radius:10px;
+	   -moz-border-radius:10px;
+	   -webkit-border-radius:10px;
+	    
+  }
+   
+ }
+ 
+ @media only screen and (max-width:1024px) and (min-width: 801px)
+ {
+ #circle1
+	{
+     width: 80px;
+	 height: 80px;
+	 background: #FF7A5A;
+	-moz-border-radius: 40px;
+	-webkit-border-radius: 40px;
+	 border-radius: 40px;
+	 position:absolute;
+	 top:20px;
+	 left:40px;       
+    }
+	#circle2
+	{
+     width: 80px;
+	 height: 80px;
+	 background: #F78D3F;
+	-moz-border-radius: 40px;
+	-webkit-border-radius: 40px;
+	 border-radius: 40px;
+	 position:absolute;
+	 top:20px;
+	 left:100px;       
+    }
+	#circle3
+	{
+     width: 80px;
+	 height: 80px;
+	 background: #2BBBD8;
+	-moz-border-radius: 40px;
+	-webkit-border-radius:40px;
+	 border-radius: 40px;
+	 position:absolute;
+	 top:20px;
+	 left:160px;       
+    }
+	#circle4
+	{
+     width: 80px;
+	 height: 80px;
+	 background: #102E37;
+	-moz-border-radius: 40px;
+	-webkit-border-radius:40px;
+	 border-radius:40px;
+	 position:absolute;
+	 top:20px;
+	 left:220px;       
+    }
+	#title
+	{
+    	font-family: 'Bitter', serif;
+	    font-size:40px;
+	    font-weight:bold;
+	    color:white;
+	    position:absolute;
+	    top:35px;
+	    left:45px;
+	}
+	#subtitle
+      { 
+	 font-family: 'Niconne', cursive;
+	 font-size:25px;
+	 position:absolute;
+	 top:100px;
+	 left:30px;
+   }
+   
+   #heading
+     {
+    font-family:'Bitter',serif;
+    font-weight:bold;
+    font-size:20px;
+    position:absolute;
+    top:120px;
+    left:500px;	
+   }
+   
+   #menu
+     {
+	   position:fixed;
+	   width:200px;
+	   top:200px;
+       left:-50px;
+       text-decoration:none;
+   }
+   
+   #menu ul 
+     {
+	   list-style:none;
+       text-decoration:none;
+   }
+   
+   #menu ul li
+   {
+	   margin-top:15px;
+       font-family: 'Bitter', serif;
+       font-size:25px;
+       width:130px;
+	   padding-top:10px;
+       padding-bottom:10px;
+	   border-radius:0px 20px 20px 0px;
+       padding-left:20px;
+       box-shadow:5px 0px 10px #939393;
+       text-decoration:none;
+   }
+   #home
+     {
+      background-color:#FF7A5A;
+      color:white;
+      text-decoration:none;
+  }
+   #quiz
+    {
+      background-color:#F78D3F;
+      color:white;
+      text-decoration:none;
+  }
+   #signup
+    {
+      background-color:#2BBBD8;
+      color:white;
+      text-decoration:none;
+   }
+   #aboutus
+    {
+     background-color:#102E37;
+     color:white;
+     text-decoration:none;
+  }
+   
+   #news
+   {
+	   position:absolute;
+       background-image:url('pic2.png');
+	   background-size:cover;
+	   width:86%;
+	   height:100%;
+	   top:230px;
+	   -moz-border-radius: 40px;
+	   -webkit-border-radius:40px;
+	   border-radius: 40px; 
+	   left:180px;
+	   opacity:1;
+   }
+   
+   
+   #red
+   {
+	   position:absolute;
+	   width:1250px;
+	   height:2px;
+	   top:80px;
+	   left:-800px;
+	   background-color:#FF7A5A;
+   }
+   #trending
+   {
+	   position:absolute;
+	   width:350px;
+	   height:250px;
+	   background-color:#FF7A5A;
+	   left:50px;
+	   top:10px;
+	   border-radius:40px;
+	   -moz-border-radius: 40px;
+	   -webkit-border-radius:40px;  
+	   font-family: 'Bitter', serif;
+       font-size:8px;
+	   color:white;
+	   text-align:center;
+   }
+   #politicsnow
+   {
+	   position:absolute;
+	   width:350px;
+	   height:250px;
+	   background-color:#F78D3F;
+	   left:450px;
+	   top:10px;
+	   border-radius:40px;
+	   -moz-border-radius: 40px;
+	   -webkit-border-radius:40px;
+       font-family: 'Bitter', serif;
+       font-size:8px;
+       color:white;
+       text-align:center;	   
+   }
+   #sportsandenter
+   {
+	   position:absolute;
+	   width:350px;
+	   height:250px;
+	   background-color:#2BBBD8;
+	   left:50px;
+	   top:325px;
+	   border-radius:40px;
+	   -moz-border-radius: 40px;
+	   -webkit-border-radius:40px;
+       font-family: 'Bitter', serif;
+       font-size:8px;
+       color:white;
+       text-align:center;	   
+   }
+   #international
+   {
+	   position:absolute;
+	   width:350px;
+	   height:250px;
+	   background-color:#102E37;
+	   left:450px;
+	   top:325px;
+	   border-radius:40px;
+	   -moz-border-radius: 40px;
+	   -webkit-border-radius:40px;
+       font-family: 'Bitter', serif;
+       font-size:8px;
+       color:white;
+       text-align:center;	   
+   }
+ }
+ 
+ 
